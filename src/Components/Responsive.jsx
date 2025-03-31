@@ -3,18 +3,55 @@ import "slick-carousel/slick/slick.css";
 // import 'slick-carousel/slick/slick-theme-css'
 import "slick-carousel/slick/slick-theme.css";
 export const Responsive = () => {
+  const settings = {
+    initialSlide: 0,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 360, // Small screens (phones, tablets)
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 768, // Small screens (phones, tablets)
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 1024, // Medium screens (tablets, small laptops)
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 1440, // Large screens (desktops)
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1880, // Large screens (desktops)
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 2560, // Large screens (desktops)
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+    ],
+  };
   return (
-    <div style={{ margin: "auto",gap:"10px",width:"89%", padding:"14px"}}>
+    <div style={{ margin: "auto",gap:"10px",width:"80%", padding:"14px", marginTop:"20px"}} className="md:w-[60%]">
       <h2 className="xl:text-[25px] sm:text-[10px] md:text-[18px]"><strong>Order our best food options</strong></h2>
-      <Slider  
-        initialSlide={0}
-        infinite={true}
-        autoplay={true}
-        autoplaySpeed={4000}
-        slidesToShow={5}
-        dots={true}
-        
-        >
+      <Slider {...settings}>
         <div >
           <img
             src="../../src/assets/images/Maggi.webp"
@@ -39,6 +76,27 @@ export const Responsive = () => {
         <div>
           <img
             src="../../src/assets/images/handi-chicken.jpg"
+            alt=""
+            style={{width:"200px" ,marginTop:"20px" ,display:"flex" ,gap:"10px"}}
+          />
+        </div>
+        <div>
+          <img
+            src="../../src/assets/images/veg-rolls.jpg"
+            alt=""
+            style={{width:"200px" ,marginTop:"20px" ,display:"flex" ,gap:"10px"}}
+          />
+        </div>
+        <div>
+          <img
+            src="../../src/assets/images/veg-rolls.jpg"
+            alt=""
+            style={{width:"200px" ,marginTop:"20px" ,display:"flex" ,gap:"10px"}}
+          />
+        </div>
+        <div>
+          <img
+            src="../../src/assets/images/veg-rolls.jpg"
             alt=""
             style={{width:"200px" ,marginTop:"20px" ,display:"flex" ,gap:"10px"}}
           />

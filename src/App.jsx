@@ -1,7 +1,8 @@
-import BestResto from "./Components/BestResto";
+import {BestResto} from "./Components/BestResto";
 import { Header } from "./Components/Header";
 import { Instamart } from "./Components/Instamart";
 import { Responsive } from "./Components/Responsive";
+import {Sticker} from "./Components/Sticker";
 function App() {
   return (
     <>
@@ -12,6 +13,8 @@ function App() {
       <Instamart/>
 
       <BestResto/>
+
+      <Sticker/>
     </>
   );
 }

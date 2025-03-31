@@ -4,20 +4,57 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 export const Instamart = () => {
+  const settings = {
+    initialSlide: 0,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 360, // Small screens (phones, tablets)
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 768, // Small screens (phones, tablets)
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 1024, // Medium screens (tablets, small laptops)
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 1440, // Large screens (desktops)
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1880, // Large screens (desktops)
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 2560, // Large screens (desktops)
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+    ],
+  };
   return (
-    <div className="w-[90%] mx-auto text-[25px]">
+    <div className="w-[80%] mx-auto sm:text-[10px] md:text-[18px]">
       <h2>
         <strong>Shop groceries on Instamart</strong>
       </h2>
-      <Slider  
-        initialSlide={0}
-        infinite={true}
-        autoplay={true}
-        autoplaySpeed={4000}
-        slidesToShow={5}
-        dots={true}
-        
-        >
+      <Slider {...settings}>
         <div >
           <img
             src="../../src/assets/images/Maggi.webp"
