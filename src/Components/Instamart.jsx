@@ -2,7 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 // import 'slick-carousel/slick/slick-theme-css'
 import "slick-carousel/slick/slick-theme.css";
-
+import "./responsive.css"
 export const Instamart = () => {
   const settings = {
     initialSlide: 0,
@@ -14,19 +14,19 @@ export const Instamart = () => {
       {
         breakpoint: 360, // Small screens (phones, tablets)
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 4,
         },
       },
       {
         breakpoint: 768, // Small screens (phones, tablets)
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 4,
         },
       },
       {
         breakpoint: 1024, // Medium screens (tablets, small laptops)
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 4,
         },
       },
       {
@@ -42,52 +42,58 @@ export const Instamart = () => {
         },
       },
       {
-        breakpoint: 2560, // Large screens (desktops)
+        breakpoint: 2562, // Large screens (desktops)
         settings: {
           slidesToShow: 4,
         },
       },
+      {
+        breakpoint: 2690, // Large screens (desktops)
+        settings: {
+          slidesToShow: 4,
+        },
+      }
     ],
   };
   return (
-    <div className="w-[80%] mx-auto sm:text-[10px] md:text-[18px]">
-      <h2>
+    <div className="w-[95%] lg:mx-auto sm:text-[10px] md:text-[18px] md:w-[80%] md:mx-auto p-[14px]">
+      <h2 className="text-[24px]">
         <strong>Shop groceries on Instamart</strong>
       </h2>
       <Slider {...settings}>
         <div >
           <img
-            src="../../src/assets/images/Maggi.webp"
+            src="../../src/assets/images/veg-food.png"
             alt=""
-            style={{width:"200px", marginTop:"20px", display:"flex", gap:"10px"}}
+            className="responsive-img"
           />
         </div>
         <div>
           <img
-            src="../../src/assets/images/veg-magie.jpg"
+            src="../../src/assets/images/paneer.jpg"
             alt=""
-            style={{width:"200px" ,marginTop:"20px", display:"flex" ,gap:"10px"}}
+            className="responsive-img"
           />
         </div>
         <div>
           <img
             src="../../src/assets/images/chicken-insta.png"
             alt=""
-            style={{width:"200px" ,marginTop:"20px" ,display:"flex" ,gap:"10px"}}
+            className="responsive-img"
           />
         </div>
         <div>
           <img
-            src="../../src/assets/images/handi-chicken.jpg"
+            src="../../src/assets/images/veg-meal.png"
             alt=""
-            style={{width:"200px" ,marginTop:"20px" ,display:"flex" ,gap:"10px"}}
+            className="responsive-img"
           />
         </div>
         <div>
           <img
-            src="../../src/assets/images/veg-rolls.jpg"
+            src="../../src/assets/images/non-veg.png"
             alt=""
-            style={{width:"200px" ,marginTop:"20px" ,display:"flex" ,gap:"10px"}}
+             className="responsive-img"
           />
         </div>
       </Slider>

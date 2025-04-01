@@ -33,7 +33,7 @@ export const Header = () => {
           </div>
           <div></div>
           <div className="w-full flex justify-center ">
-            <div className="w-[60%] xl:w-[45%] xl:text-[35px] sm:text-[5px] md:text-[15px]">
+            <div className="w-[60%] xl:w-[45%] xl:text-[30px] sm:text-[5px] md:text-[15px] ">
               <h1>
                 <strong>
                   Order food & groceries. Discover best restaurants. Swiggy it!
