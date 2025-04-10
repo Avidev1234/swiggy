@@ -8,7 +8,7 @@ export const Grocery = () => {
                 <p>Cities for grocery Delivery</p>
                 </strong>
         
-                <div className="w-full flex gap-4">
+                <div className="w-full xl:flex  gap-4 md:flex-wrap">
                     <div className="border-2 border-gray-200  rounded-md rounded-lg p-2">
                         order food online in Mumbai
                     </div>
@@ -26,7 +26,7 @@ export const Grocery = () => {
                     </div>
                     
                 </div>
-                <div className="w-full flex gap-4">
+                <div className="w-full xl:flex  gap-4 md:flex-wrap">
                     <div className="border-2 border-gray-200  rounded-md rounded-lg p-2">
                         order food online in Mumbai
                     </div>
@@ -44,7 +44,7 @@ export const Grocery = () => {
                     </div>
                     
                 </div>
-                <div className="w-full flex gap-4 md:none">
+                <div className="w-full xl:flex  gap-4 md:flex-wrap md:none">
                     <div className="border-2 border-gray-200  rounded-md rounded-lg p-2">
                         order food online in Mumbai
                     </div>
