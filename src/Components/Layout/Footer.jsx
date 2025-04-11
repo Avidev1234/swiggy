@@ -2,8 +2,8 @@ export const Footer = () => {
   return (
     <>
       <div className="w-full mx-auto bg-gray-200 flex justify-center">
-        <div className="w-[72%] mx-auto  flex justify-between gap-[15px] p-4">
-          <div className="w-[15%] flex flex-col gap-2">
+        <div className="w-[95%] md:w-[98%] lg:w-[70%] mx-auto  flex justify-between gap-[15px] p-4 text-[12px] md:text-[15px]">
+          <div className="w-[15%]  flex flex-col gap-2 hidden md:block">
             <div>
               <img src="../../src/assets/footer/footer.svg" alt="" />
             </div>
