@@ -74,7 +74,7 @@ export const Responsive = () => {
           <img
             src="../../src/assets/images/Maggi.webp"
             alt=""
-            className="responsive-img"
+            className="responsive-img bg-gray-400"
           />
         </div>
 
@@ -101,28 +101,28 @@ export const Responsive = () => {
         </div>
         <div>
           <img
-            src="../../src/assets/images/veg-rolls.jpg"
+            src="../../src/assets/images/Maggi.webp"
             alt=""
              className="responsive-img"
           />
         </div>
         <div>
           <img
-            src="../../src/assets/images/veg-rolls.jpg"
+            src="../../src/assets/images/Maggi.webp"
             alt=""
              className="responsive-img"
           />
         </div>
         <div>
           <img
-            src="../../src/assets/images/veg-rolls.jpg"
+            src=".../../src/assets/images/Maggi.webp"
             alt=""
               className="responsive-img"
           />
         </div>
         <div>
           <img
-            src="../../src/assets/images/veg-rolls.jpg"
+            src=".../../src/assets/images/Maggi.webp"
             alt=""
              className="responsive-img"
           />

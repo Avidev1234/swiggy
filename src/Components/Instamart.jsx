@@ -63,7 +63,7 @@ export const Instamart = () => {
       <Slider {...settings}>
         <div >
           <img
-            src="../../src/assets/images/veg-food.png"
+            src="../../src/assets/images/veg-meal.png"
             alt=""
             className="responsive-img"
           />
@@ -75,13 +75,7 @@ export const Instamart = () => {
             className="responsive-img"
           />
         </div>
-        <div>
-          <img
-            src="../../src/assets/images/chicken-insta.png"
-            alt=""
-            className="responsive-img"
-          />
-        </div>
+        
         <div>
           <img
             src="../../src/assets/images/veg-meal.png"
