@@ -43,3 +43,7 @@
 
 
 
+.blur {
+  filter: blur(5px);
+  pointer-events: none; /* prevent clicks on background */
+}
