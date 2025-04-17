@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "name": "Veg Thali",
+      "image": "../../src/assets/images/veg-food-api-image/veg-food-2.png"
+    },
+    
+    
+    {
+      "id": 2,
+      "name": "Veg-Thali",
+      "image": "../../src/assets/images/veg-food-api-image/veg-food-5.png"
+    },
+    {
+      "id": 3,
+      "name": "Non-Veg",
+      "image": "../../src/assets/images/veg-food-api-image/veg-food-6.png"
+    },
+   
+    {
+      "id": 4,
+        "name": "Veg Thali",
+        "image": "../../src/assets/images/veg-food-api-image/veg-food-3.png"
+      },
+      {
+        "id": 5,
+        "name": "Salad",
+        "image": "../../src/assets/images/veg-food-api-image/veg-food-1.png"
+      },
+      {
+        "id": 5,
+        "name": "chai",
+        "image": "../../src/assets/images/veg-food-api-image/chai.png"
+      }
+  ]
+  

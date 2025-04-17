@@ -24,10 +24,13 @@ export const Header = () => {
 						<button className="bg-opacity-0 p-2 hover:cursor-pointer text-white font-semibold font-[Gilroy]  -white rounded-md text-md w-full sm:w-auto text-center">
 							Get The App
 						</button>
-						<button className="bg-black p-2 hover:cursor-pointer text-white font-semibold font-[Gilroy] rounded-md text-md w-full sm:w-auto text-center" onClick={loginpopup}>
+						<div onClick={loginpopup}>
+						<button  className="bg-black p-2 hover:cursor-pointer text-white font-semibold font-[Gilroy] rounded-md text-md w-full sm:w-auto text-center" >
 							Sign In
 						</button>
-            <SigninForm/>
+
+						</div>
+            			<SigninForm/>
 					</div>
 				</div>
 				<div className="w-[100%]">
