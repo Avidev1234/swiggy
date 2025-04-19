@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { GoCheckbox } from "react-icons/go";
 import { GiCakeSlice } from "react-icons/gi";
+import res from "../Api/res.json"
 export const BestResto = () => {
   const settings = {
     initialSlide: 0,
@@ -69,10 +70,15 @@ export const BestResto = () => {
       </h2>
       
       <Slider {...settings}>
-        <div className=" max-w-sm rounded overflow-hidden shadow-lg mt-10" >
+
+        {
+      res.map((resApi,idx)=>{
+        return(
+
+        <div className=" max-w-sm rounded overflow-hidden shadow-lg mt-10" key={idx} >
           <img
             className="w-full"
-            src="../../src/assets/res/res-4.jpg"
+            src={resApi.image}
             alt="Sunset in the mountains"
           />
           <div className="font-bold text-xl mb-2 relative bottom-16 right-0 text-white">
@@ -119,6 +125,10 @@ export const BestResto = () => {
             </button>
           </div>
         </div>
+        )
+      })
+
+        }
         <div className="max-w-sm rounded overflow-hidden shadow-lg mt-10">
           <img
             className="w-full"

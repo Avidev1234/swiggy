@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "name": "Biryani",
+      "image": "../../src/assets/images/food-api-image-2/chicken-biryani.png"
+    },
+    
+    
+    {
+      "id": 2,
+      "name": "Desert",
+      "image": "../../src/assets/images/food-api-image-2/gulab-jamun-desi-ghee.png"
+    },
+    {
+      "id": 3,
+      "name": "Junk Food",
+      "image": "../../src/assets/images/food-api-image-2/momos.png"
+    },
+   
+    {
+      "id": 4,
+        "name": "Italiyan",
+        "image": "../../src/assets/images/food-api-image-2/noodles.png"
+      },
+      {
+        "id": 5,
+        "name": "Indian",
+        "image": "../../src/assets/images/food-api-image-2/north-indian-food.png"
+      },
+      {
+        "id": 5,
+        "name": "Paratha",
+        "image": "../../src/assets/images/food-api-image-2/paratha.png"
+      }
+  ]
+  

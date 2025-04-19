@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "name": "Biryani",
+      "image": "../../src/assets/images/res/res-1.png"
+    },
+    
+    
+    {
+      "id": 2,
+      "name": "Desert",
+      "image": "../../src/assets/images/res/res-2.png"
+    },
+    {
+      "id": 3,
+      "name": "Junk Food",
+      "image": "../../src/assets/images/res/res-3.png"
+    },
+   
+    {
+      "id": 4,
+        "name": "Italiyan",
+        "image": "../../src/assets/images/res/res-4.png"
+      },
+      {
+        "id": 5,
+        "name": "Indian",
+        "image": "../../src/assets/images/res/res-5.png"
+      },
+      {
+        "id": 5,
+        "name": "Paratha",
+        "image": "../../src/assets/images/res/res-6.png"
+      }
+  ]
+  
