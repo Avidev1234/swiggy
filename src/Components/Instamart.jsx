@@ -45,20 +45,20 @@ export const Instamart = () => {
 			{
 				breakpoint: 2562, // Large screens (desktops)
 				settings: {
-					slidesToShow: 4,
+					slidesToShow: 5,
 				},
 			},
 			{
 				breakpoint: 2690, // Large screens (desktops)
 				settings: {
-					slidesToShow: 4,
+					slidesToShow: 5,
 				},
 			}
 		],
 	};
 	return (
 		<div className="w-[95%] lg:mx-auto sm:text-[10px] md:text-[18px] md:w-[80%] md:mx-auto p-[14px]">
-			<h2 className="text-[24px]">
+			<h2 className="md:text-[24px]">
 				<strong>Shop groceries on Instamart</strong>
 			</h2>
 			<Slider {...settings}>
@@ -66,11 +66,11 @@ export const Instamart = () => {
 			  instamart.map((dataimage,idx)=>{
             return(
               <>
-                <div className="image-container" key={idx}>
+                <div className="image-container cursor-pointer" key={idx}>
                   <img src={dataimage.image} alt="" className="responsive-img"/>
                 </div>
                 <div>
-                  <p className="w-[52%] flex justify-center"><strong>{dataimage.name}</strong></p>
+                  <p className="md:w-[69%] w-[99%] flex justify-center"><strong>{dataimage.name}</strong></p>
                 </div>
             </>
               )

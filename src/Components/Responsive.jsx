@@ -75,11 +75,11 @@ export const Responsive = () => {
 					vegfood.map((dataimage,idx)=>{
 						return(
 			<>
-				<div className="image-container" key={idx}>
+				<div className="image-container cursor-pointer" key={idx}>
 						<img src={dataimage.image} alt="" className="responsive-img"/>
 				</div>
 				<div>
-					<p className="w-[69%] flex justify-center"><strong>{dataimage.name}</strong></p>
+					<p className="w-[99%] md:w-[69%] flex justify-center"><strong>{dataimage.name}</strong></p>
 				</div>
 			</>
 	)

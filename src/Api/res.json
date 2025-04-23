@@ -1,6 +1,10 @@
 [
     {
       "id": 1,
+      "resName":"Namaste Kitchen",
+      "address":"66, Outer Ring Rd,  Vijaya Bank Colony Extension, Dooravani Nagar, Bengaluru, Karnataka 560043",
+      "price":"350",
+      "distance":"2",
       "name": "Biryani",
       "image": "../../src/assets/images/res/res-1.png"
     },
@@ -8,27 +12,47 @@
     
     {
       "id": 2,
+      "resName":"Spice Bazaar",
+      "address":"11,12 1st Cross,Raghu Building, Horamavu Main Rd, Bengaluru, Karnataka 560043",
+      "price":"550",
+      "distance":"2.5",
       "name": "Desert",
       "image": "../../src/assets/images/res/res-2.png"
     },
     {
       "id": 3,
+      "resName":"Bombay Bistro",
+      "address":"Mile 6, One Style,  Mehrauli, New Delhi, Delhi 110030",
+      "price":"3000",
+      "distance":"4",
       "name": "Junk Food",
       "image": "../../src/assets/images/res/res-3.png"
     },
    
     {
       "id": 4,
+      "resName":"Masala Majesty",
+      "address":"The Lodhi,  Pragati Vihar, New Delhi, Delhi 110003",
+      "price":"3500",
+      "distance":"5",
         "name": "Italiyan",
         "image": "../../src/assets/images/res/res-4.png"
       },
       {
         "id": 5,
+        "resName":"Turmeric Tales",
+        "address":" G Block BKC, Bandra Kurla Complex, Bandra East, Mumbai, Maharashtra 400051",
+        "price":"1500",
+        "distance":"1",
         "name": "Indian",
         "image": "../../src/assets/images/res/res-5.png"
       },
       {
         "id": 5,
+        "resName":"Bites & Brilliance",
+        "address":"Kamala Mills, Near Radio Mirchi Office Lower, Parel, Mumbai, Maharashtra 400013",
+        "price":"2000",
+        "distance":"12",
         "name": "Paratha",
         "image": "../../src/assets/images/res/res-6.png"
       }
