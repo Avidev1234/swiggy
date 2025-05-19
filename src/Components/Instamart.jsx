@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./responsive.css";
 import instamart from "../Api/instamart.json"
+import { Groceries } from "./cards/Groceries";
 export const Instamart = () => {
 	const settings = {
 		initialSlide: 0,
@@ -63,18 +64,19 @@ export const Instamart = () => {
 			</h2>
 			<Slider {...settings}>
 			{
-			  instamart.map((dataimage,idx)=>{
-            return(
-              <>
-                <div className="image-container cursor-pointer" key={idx}>
-                  <img src={dataimage.image} alt="" className="responsive-img"/>
-                </div>
-                <div>
-                  <p className="md:w-[69%] w-[99%] flex justify-center"><strong>{dataimage.name}</strong></p>
-                </div>
-            </>
-              )
-              })
+			  instamart.map((dataimage,idx)=>(
+				<Groceries key={idx} data={dataimage}/>
+            // 	return(
+            //   <>
+            //     <div className="image-container cursor-pointer" key={idx}>
+            //       <img src={dataimage.image} alt="" className="responsive-img"/>
+            //     </div>
+            //     <div>
+            //       <p className="md:w-[69%] w-[99%] flex justify-center"><strong>{dataimage.name}</strong></p>
+            //     </div>
+            // </>
+            //   )
+			  ))
 	    }
 
 		</Slider>

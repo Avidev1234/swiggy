@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 // import 'slick-carousel/slick/slick-theme-css'
 import "slick-carousel/slick/slick-theme.css";
 import "./responsive.css"
+import { FoodOptions } from "./cards/FoodOptions";
 export const Responsive = () => {
 	const settings = {
 		initialSlide: 0,
@@ -59,33 +60,21 @@ export const Responsive = () => {
 	return (
 		<div
 			style={{
-
 				gap: "15px",
-
 				padding: "14px",
 				marginTop: "20px",
-			}}
-			className="lg:m-auto md:w-[80%] sm:w-[80%] md:mx-auto"
-		>
+			}}className="lg:m-auto md:w-[80%] sm:w-[80%] md:mx-auto">
 			<h2 className="xl:text-[25px] sm:text-[10px] md:text-[18px]">
 				<strong>Order our best food options</strong>
 			</h2>
 			<Slider {...settings}>
 				{
-					vegfood.map((dataimage,idx)=>{
-						return(
-			<>
-				<div className="image-container cursor-pointer" key={idx}>
-						<img src={dataimage.image} alt="" className="responsive-img"/>
-				</div>
-				<div>
-					<p className="w-[99%] md:w-[69%] flex justify-center"><strong>{dataimage.name}</strong></p>
-				</div>
-			</>
-	)
-	})
-	}
-	</Slider>
+					vegfood.map((dataimage, idx) => (
+						<FoodOptions key={idx} data={dataimage} />
+					))
+				}
+			</Slider>
+
 	</div>
 	);
 };

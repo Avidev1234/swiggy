@@ -1,70 +1,35 @@
 import { MdKeyboardArrowDown } from "react-icons/md";
+import citiesData from "../Api/cities.json";
+import { useState } from "react";
+
 export const Grocery = () => {
-  return (
-    <>
-      <div>
-         <div className="lg:w-[68%] lg:mx-auto mx-auto flex flex-col gap-4 mt-10 p-4">
-                <strong>
-                <p>Cities for grocery Delivery</p>
-                </strong>
-        
-                <div className="w-full xl:flex  gap-4 md:flex-wrap">
-                    <div className="border-2 border-gray-200  rounded-md rounded-lg p-2">
-                        order food online in Mumbai
-                    </div>
-                    <div className="border-2 border-gray-200  rounded-md rounded-lg p-2">
-                        order food online in Mumbai
-                    </div>
-                    <div className="border-2 border-gray-200  rounded-md rounded-lg p-2">
-                        order food online in Mumbai
-                    </div>
-                    <div className="border-2 border-gray-200  rounded-md rounded-lg p-2">
-                        order food online in Mumbai
-                    </div>
-                    <div className="border-2 border-gray-200  rounded-md rounded-lg p-2">
-                        order food online in Mumbai
-                    </div>
-                    
-                </div>
-                <div className="w-full xl:flex  gap-4 md:flex-wrap">
-                    <div className="border-2 border-gray-200  rounded-md rounded-lg p-2">
-                        order food online in Mumbai
-                    </div>
-                    <div className="border-2 border-gray-200  rounded-md rounded-lg p-2">
-                        order food online in Mumbai
-                    </div>
-                    <div className="border-2 border-gray-200  rounded-md rounded-lg p-2">
-                        order food online in Mumbai
-                    </div>
-                    <div className="border-2 border-gray-200  rounded-md rounded-lg p-2">
-                        order food online in Mumbai
-                    </div>
-                    <div className="border-2 border-gray-200  rounded-md rounded-lg p-2">
-                        order food online in Mumbai
-                    </div>
-                    
-                </div>
-                <div className="w-full xl:flex  gap-4 md:flex-wrap md:none">
-                    <div className="border-2 border-gray-200  rounded-md rounded-lg p-2">
-                        order food online in Mumbai
-                    </div>
-                    <div className="border-2 border-gray-200  rounded-md rounded-lg p-2">
-                        order food online in Mumbai
-                    </div>
-                    <div className="border-2 border-gray-200  rounded-md rounded-lg p-2">
-                        order food online in Mumbai
-                    </div>
-                    <div className="border-2 border-gray-200  rounded-md rounded-lg p-2">
-                        order food online in Mumbai
-                    </div>
-                    <div className=" w-[225px] border-2 border-gray-200  rounded-md rounded-lg p-1">
-                        Show More <MdKeyboardArrowDown />
-                    </div>
-                </div>
-               
-                
-              </div>
-      </div>
-    </>
-  );
+	const allCities = Object.values(citiesData).flat(); // Flatten all cities into one array
+// console.log("allCities",allCities);
+
+const [showCity,setshowcity]=useState(false);
+const show=showCity ? allCities : allCities.slice(0,10);
+	return (
+		<>
+			<div>
+				<div className="lg:w-[68%] lg:mx-auto mx-auto flex flex-col gap-4 mt-10 p-4">
+					<strong>
+					<h1 className="text-[26px]">Cities for grocery Delivery</h1>
+					</strong>
+
+					<div className="w-full xl:flex  gap-4 md:flex-wrap md:none">
+					    {
+						show.map((cities, index) => (
+                                <div key={index} className="border-2 border-gray-200 rounded-md p-2">
+                    Order food online in {cities}
+                  </div>
+                        ))}
+                        <div className="w-[225px] border-2 border-gray-200 rounded-md p-2 cursor-pointer flex items-center gap-2 text-[#ff5200]" onClick={()=>setshowcity(!showCity)}>
+                            {showCity ? "Show Less" : "Show More"}{" "}
+                            {showCity ? <MdKeyboardArrowDown /> : <MdKeyboardArrowDown />}
+                        </div>
+	                </div>
+		        </div>
+	        </div>
+	</>
+	);
 };

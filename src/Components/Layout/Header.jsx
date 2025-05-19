@@ -24,12 +24,10 @@ export const Header = () => {
 						<button className="bg-opacity-0 p-2 hover:cursor-pointer text-white font-semibold font-[Gilroy]  -white rounded-md text-md w-full sm:w-auto text-center">
 							Get The App
 						</button>
-						<div onClick={loginpopup}>
-						<button  className="bg-black p-2 hover:cursor-pointer text-white font-semibold font-[Gilroy] rounded-md text-md w-full sm:w-auto text-center" >
+						
+						<button onClick={loginpopup} className="bg-black p-2 hover:cursor-pointer text-white font-semibold font-[Gilroy] rounded-md text-md w-full sm:w-auto text-center" >
 							Sign In
 						</button>
-
-						</div>
             			<SigninForm/>
 					</div>
 				</div>
@@ -113,13 +111,7 @@ export const Header = () => {
 				/>
 			</div>
 
-			<div className="max-w-sm rounded overflow-hidden shadow-lg">
-				<img
-					className="w-full"
-					src="../src/assets/images/dineout.avif"
-					alt="Sunset in the mountains"
-				/>
-			</div>
+			
 		</div>
 	</div>
 	</div>

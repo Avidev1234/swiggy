@@ -1,0 +1,82 @@
+{
+  "Andhra Pradesh": [
+    "Visakhapatnam", "Vijayawada", "Guntur", "Nellore", "Tirupati", "Kakinada", "Rajahmundry", "Anantapur", "Chittoor", "Kadapa"
+  ],
+  "Arunachal Pradesh": [
+    "Itanagar", "Tawang", "Bomdila", "Ziro", "Pasighat", "Tezu", "Aalo", "Namsai", "Roing", "Naharlagun"
+  ],
+  "Assam": [
+    "Guwahati", "Silchar", "Dibrugarh", "Jorhat", "Nagaon", "Tinsukia", "Bongaigaon", "Dhubri", "Diphu", "Tezpur"
+  ],
+  "Bihar": [
+    "Patna", "Gaya", "Bhagalpur", "Muzaffarpur", "Darbhanga", "Munger", "Purnia", "Begusarai", "Buxar", "Sasaram"
+  ],
+  "Chhattisgarh": [
+    "Raipur", "Bhilai Nagar", "Korba", "Bilaspur", "Durg", "Rajnandgaon", "Jagdalpur", "Raigarh", "Ambikapur", "Mahasamund"
+  ],
+  "Goa": [
+    "Panaji", "Margao", "Vasco da Gama", "Mapusa", "Marmagao", "Panjim", "Cortalim", "Ponda", "Bicholim", "Quepem"
+  ],
+  "Gujarat": [
+    "Ahmedabad", "Surat", "Vadodara", "Rajkot", "Bhavnagar", "Jamnagar", "Gandhinagar", "Nadiad", "Anand", "Mehsana"
+  ],
+  "Haryana": [
+    "Chandigarh", "Faridabad", "Gurugram", "Ambala", "Hisar", "Karnal", "Panipat", "Yamunanagar", "Rohtak", "Sonipat"
+  ],
+  "Himachal Pradesh": [
+    "Shimla", "Dharamshala", "Kullu", "Solan", "Mandi", "Kangra", "Hamirpur", "Bilaspur", "Chamba", "Una"
+  ],
+  "Jharkhand": [
+    "Ranchi", "Jamshedpur", "Dhanbad", "Bokaro Steel City", "Deoghar", "Dumka", "Giridih", "Hazaribag", "Jamtara", "Medininagar"
+  ],
+  "Karnataka": [
+    "Bengaluru", "Mysuru", "Hubballi-Dharwad", "Mangaluru", "Belagavi", "Ballari", "Davangere", "Tumakuru", "Chitradurga", "Hassan"
+  ],
+  "Kerala": [
+    "Thiruvananthapuram", "Kochi", "Kozhikode", "Kottayam", "Thrissur", "Malappuram", "Palakkad", "Kannur", "Alappuzha", "Pathanamthitta"
+  ],
+  "Madhya Pradesh": [
+    "Bhopal", "Indore", "Gwalior", "Jabalpur", "Ujjain", "Sagar", "Satna", "Rewa", "Khandwa", "Chhindwara"
+  ],
+  "Maharashtra": [
+    "Mumbai", "Pune", "Nagpur", "Nashik", "Aurangabad", "Solapur", "Kolhapur", "Thane", "Navi Mumbai", "Amravati"
+  ],
+  "Manipur": [
+    "Imphal", "Thoubal", "Churachandpur", "Bishnupur", "Senapati", "Ukhrul", "Tamenglong", "Chandel", "Jiribam", "Kakching"
+  ],
+  "Meghalaya": [
+    "Shillong", "Tura", "Jowai", "Nongpoh", "Williamnagar", "Baghmara", "Mawkyrwat", "Nongstoin", "Ampati", "Resubelpara"
+  ],
+  "Mizoram": [
+    "Aizawl", "Lunglei", "Champhai", "Kolasib", "Serchhip", "Mamit", "Lawngtlai", "Saiha", "Hnahthial", "Khawzawl"
+  ],
+  "Nagaland": [
+    "Kohima", "Dimapur", "Mokokchung", "Tuensang", "Mon", "Zunheboto", "Wokha", "Peren", "Longleng", "Kiphire"
+  ],
+  "Odisha": [
+    "Bhubaneswar", "Cuttack", "Rourkela", "Brahmapur", "Sambalpur", "Puri", "Balasore", "Baripada", "Jharsuguda", "Dhenkanal"
+  ],
+  "Punjab": [
+    "Chandigarh", "Amritsar", "Ludhiana", "Jalandhar", "Patiala", "Bathinda", "Mohali", "Hoshiarpur", "Pathankot", "Moga"
+  ],
+  "Rajasthan": [
+    "Jaipur", "Jodhpur", "Udaipur", "Kota", "Ajmer", "Bikaner", "Alwar", "Bhilwara", "Chittorgarh", "Sikar"
+  ],
+  "Sikkim": [
+    "Gangtok", "Namchi", "Mangan", "Jorethang", "Rangpo", "Singtam", "Rhenock", "Sikip", "Chungthang", "Tadong"
+  ],
+  "Tamil Nadu": [
+    "Chennai", "Coimbatore", "Madurai", "Tiruchirappalli", "Salem", "Tirunelveli", "Erode", "Vellore", "Dindigul", "Thanjavur"
+  ],
+  "Telangana": [
+    "Hyderabad", "Warangal", "Khammam", "Karimnagar", "Nizamabad", "Mahabubnagar", "Nalgonda", "Medak", "Ramagundam", "Suryapet"
+  ],
+  "Tripura": [
+    "Agartala", "Udaipur", "Dharmanagar", "Ambassa", "Belonia", "Kailashahar", "Khowai", "Jirania", "Melaghar", "Sonamura"
+  ],
+  "Uttar Pradesh": [
+    "Lucknow", "Kanpur", "Agra", "Varanasi"
+  ]
+
+}
+ 
