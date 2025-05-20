@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./sign.js";
 import { SigninForm } from "./SigninForm.jsx";
 export const Header = () => {
@@ -15,12 +16,12 @@ export const Header = () => {
 						</div>
 					</div>
 					<div className="w-full sm:w-[88%] flex flex-col sm:flex-row  justify-end gap-4 gap-4">
-						<p className="text-white font-semibold p-2 font-[Gilroy] hover:cursor-pointer text-center sm:text-left">
+						<NavLink to={"/about"} target="_blank" className="text-white font-semibold p-2 font-[Gilroy] hover:cursor-pointer text-center sm:text-left">
 							Swiggy Corporate
-						</p>
-						<p className="text-white font-semibold p-2 font-[Gilroy] hover:cursor-pointer text-center sm:text-left">
+						</NavLink>
+						<NavLink className="text-white font-semibold p-2 font-[Gilroy] hover:cursor-pointer text-center sm:text-left">
 							Partner with us
-						</p>
+						</NavLink>
 						<button className="bg-opacity-0 p-2 hover:cursor-pointer text-white font-semibold font-[Gilroy]  -white rounded-md text-md w-full sm:w-auto text-center">
 							Get The App
 						</button>

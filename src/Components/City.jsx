@@ -14,7 +14,7 @@ export const City = () => {
   return (
         <div className="lg:w-[68%] lg:mx-auto flex flex-col md:gap-4 mt-10 p-4 sm:w-[100%] mx-auto">
           <strong>
-            <p>Cities for food Delivery</p>
+            <p className="text-[26px]">Cities for food Delivery</p>
           </strong>
               <div className="w-full xl:flex  gap-4 md:flex-wrap md:none">
                 {citiesToShow.map((city, index) => (
