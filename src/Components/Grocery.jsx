@@ -1,6 +1,7 @@
 import { MdKeyboardArrowDown } from "react-icons/md";
 import citiesData from "../Api/cities.json";
 import { useState } from "react";
+import { GroseryCity } from "./cards/GroseryCity";
 
 export const Grocery = () => {
 	const allCities = Object.values(citiesData).flat(); // Flatten all cities into one array
@@ -19,9 +20,7 @@ const show=showCity ? allCities : allCities.slice(0,10);
 					<div className="w-full xl:flex  gap-4 md:flex-wrap md:none">
 					    {
 						show.map((cities, index) => (
-                                <div key={index} className="border-2 border-gray-200 rounded-md p-2">
-                    Order food online in {cities}
-                  </div>
+                                <GroseryCity data={{cities,index}} key={index}/>
                         ))}
                         <div className="w-[225px] border-2 border-gray-200 rounded-md p-2 cursor-pointer flex items-center gap-2 text-[#ff5200]" onClick={()=>setshowcity(!showCity)}>
                             {showCity ? "Show Less" : "Show More"}{" "}
